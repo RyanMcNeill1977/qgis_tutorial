@@ -8,4 +8,4 @@ Because I'm on a Windows machine, your screen may look a little different. But y
 
 ![Here's what you want.](/qgis1.jpg)
 
-
+Once you download QGIS, download and install it. It's pretty self explanatory. When it asks you if you want to add North Carolina and other test data, don't bother. We just need the program installed. 
