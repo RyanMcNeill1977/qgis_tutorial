@@ -6,7 +6,6 @@ As of this writing, 2.18.7 is available. Click download now.
 
 Because I'm on a Windows machine, your screen may look a little different. But you want the 64 bit installer. 
 
-PICTURE GOES HERE
-
+![Here's what you want.](/qgis1.jpg)
 
 
