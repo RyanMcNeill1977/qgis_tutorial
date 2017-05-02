@@ -50,6 +50,16 @@ Now's a good time to take a quick interlude and discuss how to navigate around y
 
 ![Here's what you want.](/qgis3.jpg)
 
+Pay attention to the hand icon. That lets you pan around the map. Then there's the magnifying glass icons. The main ones you'll use contain the plus and minus signs. They let you zoom in and out on the map. 
+
+Take a minute to use them to navigate around your map. 
+
+Now let's add some data to the map. 
+
+### Adding data to your map 
+
+
+
 
 
 
