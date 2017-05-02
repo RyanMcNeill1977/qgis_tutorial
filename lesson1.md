@@ -83,7 +83,7 @@ left join data b
   on a.STATEFP = STATE
 ```
 
-
+When I attended map camp at NICAR, Jennifer LaFleur told us to think of it like pouring ingredients into a bowl. The data we just downloaded are the ingredients, the state boundaries are the bowl. 
 
 
 
