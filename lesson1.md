@@ -36,5 +36,19 @@ Other files
 | .sbn/.sbx |a spatial index of the features
 
 
+### Add the data to QGIS
+
+Click on the icon to load a shapefile vector layer. 
+
+![Here's what you want.](/qgis2.jpg)
+
+That brings up the screen below. 
+
+![Here's what you want.](/qgis3.jpg)
+
+There's a lot going on here. Let's go over it. 
+
+
+
 
 
