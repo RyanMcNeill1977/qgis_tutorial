@@ -16,14 +16,21 @@ On the left side of the screen, you see a number of icons, each for a different 
 
 A shapefile is actually multiple files. Wikipedia has a [good breakdown of a shapefile](https://en.wikipedia.org/wiki/Shapefile). I've copied and pasted a few main ingredients. 
 
-Mandatory files:
+Mandatory files: 
 
-.shp — shape format; the feature geometry itself
-.shx — shape index format; a positional index of the feature geometry to allow seeking forwards and backwards quickly
-.dbf — attribute format; columnar attributes for each shape, in dBase IV format
+|Extension|What is it?                                                                                |
+|---------|-------------------------------------------------------------------------------------------|
+| .shp    |the feature geometry itself                                                                |
+| .shx    |a positional index of the feature geometry to allow seeking forwards and backwards quickly |
+| .dbf    |columnar attributes for each shape, in dBase IV format                                     |
 
 Other files 
-.prj — projection format; the coordinate system and projection information, a plain text file describing the projection using well-known text format
-.sbn and .sbx — a spatial index of the features
+
+|Extension  |What is it?                                                                                                               |
+|-----------|------------------------------------------------------------------------------------------------------------------------- |
+| .prj      |the coordinate system and projection information, a plain text file describing the projection using well-known text format|
+| .sbn/.sbx |a spatial index of the features
+
+
 
 
