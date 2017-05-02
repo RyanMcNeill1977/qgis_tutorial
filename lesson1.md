@@ -80,7 +80,7 @@ Open up the data you just downloaded and take a look. Look at the column called 
 select a.*
 from map a
 left join data b 
-  on a.STATEFP = STATE
+  on a.STATEFP = b.STATE
 ```
 
 When I attended map camp at NICAR, Jennifer LaFleur told us to think of it like pouring ingredients into a bowl. The data we just downloaded are the ingredients, the state boundaries are the bowl. 
