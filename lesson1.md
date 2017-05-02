@@ -54,12 +54,21 @@ Pay attention to the hand icon. That lets you pan around the map. Then there's t
 
 Take a minute to use them to navigate around your map. 
 
-Now let's add some data to the map. 
+Now let's add some data.
 
 ### Adding data to your map 
 
+We're going to make a simple map that shows a color for each state, based on the population. This is [called a chloropleth](https://en.wikipedia.org/wiki/Choropleth_map). 
 
+Before we do that, I want you to take a look at the attributes of the state map you've already loaded. You want to look in the layers panel, which shows you each thing ("thing" is not official terminology), or layer, that you've added so far. Right click on our state's layer and click **open attribute table**. 
 
+![Here's what you want.](/qgis4.jpg)
+
+Voila. A table. There's a record for every state in our map. 
+
+![Here's what you want.](/qgis5.jpg)
+
+Pay special attention to the STATEFP column. That's important. That is the FIPS code for each state. We're going to use that to join up the data we download. 
 
 
 
