@@ -12,11 +12,9 @@ Let's go to the [download page](https://www.census.gov/geo/maps-data/data/tiger-
 
 Download the U.S. states for 2016. Unzip it. 
 
-Now back to QGIS. 
-
-On the left side of the screen, you see a number of icons, each for a different kind of data you can add. We're using a shapefile, an extremely common way of storing GIS data. 
-
 ### What's a shapefile?
+
+We just downloaded a shapefile, controlled by ESRI (the maker of ArcGIS) and widely used to distribute GIS data. 
 
 A shapefile is actually multiple files. Wikipedia has a [good breakdown of a shapefile](https://en.wikipedia.org/wiki/Shapefile). I've copied and pasted a few main ingredients. 
 
@@ -38,15 +36,24 @@ Other files
 
 ### Add the data to QGIS
 
+Now back to QGIS. 
+
 Click on the icon to load a shapefile vector layer. 
 
 ![Here's what you want.](/qgis2.jpg)
 
-That brings up the screen below. 
+Chose file and click browse to navigate to your file. Remember how we said shapefiles are actually multiple files? Select the file called **tl_2016_us_state.shp**. Click open. Voila! You have a map. 
+
+### Navigate around the map
+
+Now's a good time to take a quick interlude and discuss how to navigate around your map. At the top of QGIS, you'll see a couple of rows of icon. Below is a picture of some key ones for getting around. 
 
 ![Here's what you want.](/qgis3.jpg)
 
-There's a lot going on here. Let's go over it. 
+
+
+
+
 
 
 
