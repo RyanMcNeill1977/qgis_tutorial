@@ -1,5 +1,7 @@
 # Getting started with QGIS
 
+### Download the data from Census Bureau 
+
 One of the most important sites for GIS work is the [Census Bureau's TIGER program](https://www.census.gov/geo/maps-data/data/tiger.html).
 
 It is a tremendous resource of boundary maps of all kinds: states, legislative districts, congressional districts, counties, cities and so on. 
@@ -13,6 +15,8 @@ Download the U.S. states for 2016. Unzip it.
 Now back to QGIS. 
 
 On the left side of the screen, you see a number of icons, each for a different kind of data you can add. We're using a shapefile, an extremely common way of storing GIS data. 
+
+### What's a shapefile?
 
 A shapefile is actually multiple files. Wikipedia has a [good breakdown of a shapefile](https://en.wikipedia.org/wiki/Shapefile). I've copied and pasted a few main ingredients. 
 
