@@ -104,8 +104,22 @@ And your screen should look like this. In this case, we aren't loading geographi
 
 ![Here's what you want.](/qgis7.jpg)
 
-Notice QGIS added our data to the list of layers. 
+Notice QGIS added our data to the list of layers. Now we need to join it to the states shapefile. 
 
+Double click on the states shapefile. You'll get the below screen. Click on joins. 
+
+![Here's what you want.](/qgis12.jpg)
+
+At the bottom of the screen is a little plus sign. Let's use that. 
+
+![Here's what you want.](/qgis13.jpg)
+
+So what we're going to do is tell QGIS what table we want to join, the fields on which to join (remember our SQL example above?) and which fields we want to join up. In this case, for 
+
+
+![Here's what you want.](/qgis14.jpg)
+
+Hit OK. 
 
 
 
