@@ -82,7 +82,6 @@ So remember to take care and pay attention to those pesky numbers-that-should-be
 
 ![Here's what you want.](/qgis9.jpg)
 
-
 Look at the column called STATE. Those are the FIPS code in this dataset. So we want to join this data to our map. If you think about SQL, it's the equal of doing something like this: 
 
 ```SQL
@@ -93,6 +92,36 @@ left join population_data b
 ```
 
 When I attended map camp at NICAR, Jennifer LaFleur told us to think of it like pouring ingredients into a bowl. The population data we just downloaded are the ingredients, the state boundaries are the bowl. 
+
+####But there's a problem
+
+But here's the problem: When we go to import this file into QGIS, it's going to take a guess at these fields and you're probably not going to like the results. So [there's a way](https://anitagraser.com/2011/03/07/how-to-specify-data-types-of-csv-columns-for-use-in-qgis/) to force QGIS to recognize the data types for each column. 
+
+First, let's shorten up the spreadsheet. Delete all the columns except for the first five columns (SUMLEV, REGION, DIVISION AND STATE), as well as **ESTIMATESBASE2010** AND **POPESTIMATE2016** fields. Save your current spreadsheet as a .csv file. 
+
+![Here's what you want.](/qgis18.jpg)
+
+Now let's add a blank line at the top. Above each column header, enter whether it's "Integer, Real, String, Date (YYYY-MM-DD), Time (HH:MM:SS+nn) and DateTime (YYYY-MM-DD HH:MM:SS+nn)." Let's keep it simple and just use Integer and String (text). 
+
+![Here's what you want.](/qgis19.jpg)
+
+Don't save it. Instead, copy and paste that first row into a new spreadsheet. 
+
+![Here's what you want.](/qgis20.jpg)
+
+Then save it as its own csv. In this case, it needs to have the exact same name as the main spreadsheet, only with a .csvt extension.
+
+
+![Here's what you want.](/qgis21.jpg)
+
+That file acts as a "guide" for QGIS to know what data type each field in the main CSV should be. 
+
+One last thing. Open the the .CSVT file you just saved and make sure it has quotes around each field. If not, add them.
+
+![Here's what you want.](/qgis22.jpg)
+
+#### Get the bowl ready
+
 
 So let's add the ingredients to the bowl. 
 
@@ -121,5 +150,27 @@ So what we're going to do is tell QGIS what table we want to join, the fields on
 
 Hit OK. 
 
+So we've added the ingredients (population data) and poured it into the bowl (the state boundary shapefile). To prove it, right click on the state shapefile and open the attribute table. Scroll all the way to the right. You should see your new fields. 
 
+![Here's what you want.](/qgis15.jpg)
+
+Now let's make this map useful. 
+
+Left click on the state layer and open the properties screen. Click on style. 
+
+There's a lot of stuff going on here.
+
+First, we want to select graduated. Remember when we discussed continuous variables? Graduated allows you to color the states based on a continuous variable. 
+
+Then there's the color ramp. This is just the range of colors you see. You can change it, if you want, but I'm going to leave it alone. 
+
+Next is the number of classes. We've selected five. That means we'll have five categories. 
+
+See the mode? That just gives us options of how to automatically set the ranges for each of the classes. 
+
+Hit the classify button.
+
+In the picture below, you'll see it has equally divided each of the classifications into roughly more than half a million people. This probably isn't the best way to do this, but for now let's leave it alone. 
+
+![Here's what you want.](/qgis17.jpg)
 
