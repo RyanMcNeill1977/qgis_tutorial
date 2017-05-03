@@ -56,7 +56,7 @@ Take a minute to use them to navigate around your map.
 
 Now let's add some data.
 
-### Adding data to your map 
+### Let's get ready to cook
 
 We're going to make a simple map that shows a color for each state, based on the population. This is [called a chloropleth](https://en.wikipedia.org/wiki/Choropleth_map). 
 
@@ -93,7 +93,7 @@ left join population_data b
 
 When I attended map camp at NICAR, Jennifer LaFleur told us to think of it like pouring ingredients into a bowl. The population data we just downloaded are the ingredients, the state boundaries are the bowl. 
 
-####But there's a problem
+### But we need to do some pre-processing
 
 But here's the problem: When we go to import this file into QGIS, it's going to take a guess at these fields and you're probably not going to like the results. So [there's a way](https://anitagraser.com/2011/03/07/how-to-specify-data-types-of-csv-columns-for-use-in-qgis/) to force QGIS to recognize the data types for each column. 
 
@@ -120,8 +120,8 @@ One last thing. Open the the .CSVT file you just saved and make sure it has quot
 
 ![Here's what you want.](/qgis22.jpg)
 
-#### Get the bowl ready
 
+### Get the bowl ready
 
 So let's add the ingredients to the bowl. 
 
