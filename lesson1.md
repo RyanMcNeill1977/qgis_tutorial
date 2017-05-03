@@ -204,36 +204,6 @@ You could tinker with the map all day. Try different modes. Try your own manual 
 
 When I make a map, it is usually for reporting purposes. I'm trying to understand the spatial distribution of some sort of data. But sometimes what I might need to better understand the data might be different than how we should display it graphically for the public. I try to work closely with our graphical journalists on that front. 
 
-### All the Earth's Projections
-
-One last thing I want to point out is the EPSG at the bottom right of your screen. 
-
-![Here's what you want.](/qgis28.jpg)
-
-This refers to the projection of the map. 
-
-Below are a few bullet points from [this really useful United States Geological Survey website](https://egsc.usgs.gov/isb//pubs/MapProjections/projections.html) on map projections. 
-
---- A map projection is used to portray all or part of the round Earth on a flat surface. This cannot be done without some distortion.
-
---- Every projection has its own set of advantages and disadvantages. There is no "best" projection.
-
---- The mapmaker must select the one best suited to the needs, reducing distortion of the most important features.
-
---- Mapmakers and mathematicians have devised almost limitless ways to project the image of the globe onto paper. Scientists at the U. S. Geological Survey have designed projections for their specific needs—such as the Space Oblique Mercator, which allows mapping from satellites with little or no distortion.
-
-Long story short, we could spend a massive amount of time --- far more time than we have in this class --- to discuss map projections. There are whole textbooks on the topic. 
-
-As the USGS says above, there's no "right" map projection that always works. It depends on what you're doing. 
-
-![Here's what you want.](/qgis29.jpg)
-![Here's what you want.](/qgis30.jpg)
-
-See the difference?
-
-The first map is in EPSG 4269, [also known as NAD83](http://spatialreference.org/ref/epsg/4269/). This is the most common format used by federal agencies. That is the format of our map. 
-
-The second is EPSG 102008, which is Albers Equal Area Conic. 
 
 
 
