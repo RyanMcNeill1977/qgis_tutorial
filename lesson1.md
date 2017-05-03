@@ -170,7 +170,49 @@ See the mode? That just gives us options of how to automatically set the ranges 
 
 Hit the classify button.
 
-In the picture below, you'll see it has equally divided each of the classifications into roughly more than half a million people. This probably isn't the best way to do this, but for now let's leave it alone. 
-
 ![Here's what you want.](/qgis17.jpg)
+
+In the picture below, you'll see it has equally divided each of the classifications into roughly 785,000 people. This probably isn't the best way to do this, but for now let's leave it alone. 
+
+![Here's what you want.](/qgis23.jpg)
+
+Hit OK.
+
+We have a map. 
+
+![Here's what you want.](/qgis24.jpg)
+
+But this doesn't tell us very much, does it? 
+
+Let's make some changes. Open the properties table again for the states layer. We could use one of the other preset modes, which might be useful, or we could make our own custom categories. 
+
+The most populous state, California, has about 39 million people. Let's see what happens if we break these into categories of 5 million. 
+
+In the values area, double click on a value. 
+
+![Here's what you want.](/qgis25.jpg)
+
+You should be able to create categories like so:
+
+![Here's what you want.](/qgis26.jpg)
+
+And now we have a new map. What do you think?
+
+![Here's what you want.](/qgis27.jpg)
+
+You could tinker with the map all day. Try different modes. Try your own manual ranges. 
+
+When I make a map, it is usually for reporting purposes. I'm trying to understand the spatial distribution of some sort of data. But sometimes what I might need to better understand the data might be different than how we should display it graphically for the public. I try to work closely with our graphical journalists on that front. 
+
+
+
+
+
+
+
+
+
+
+
+
 
