@@ -94,9 +94,17 @@ left join population_data b
 
 When I attended map camp at NICAR, Jennifer LaFleur told us to think of it like pouring ingredients into a bowl. The population data we just downloaded are the ingredients, the state boundaries are the bowl. 
 
+So let's add the ingredients to the bowl. 
+
+Start by looking at the left rail where we added the shapefile data. Let's use a different button. 
+
+![Here's what you want.](/qgis10.jpg)
+
+And your screen should look like this. In this case, we aren't loading geographic data, so make sure you click the No Geometry radio button.
+
 ![Here's what you want.](/qgis7.jpg)
 
-
+Notice QGIS added our data to the list of layers. 
 
 
 
