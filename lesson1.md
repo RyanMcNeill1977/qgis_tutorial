@@ -70,20 +70,31 @@ Voila. A table. There's a record for every state in our map.
 
 Pay special attention to the STATEFP column. That's important. That is the FIPS code for each state. Just like a SQL database, we're going to join data based on a field. In our case, that field is STATEFP. 
 
-Now let's go to the Census Bureau and download the 2016 population estimates. 
+Now let's go to the Census Bureau and [download the 2016 population estimates.](https://www.census.gov/data/datasets/2016/demo/popest/nation-total.html) 
 
 ![Here's what you want.](/qgis6.jpg)
 
-Open up the data you just downloaded and take a look. Look at the column called STATE. Those are the FIPS code in this dataset. So we want to join this data to our map. If you think about SQL, it's the equal of doing something like this: 
+Open up the data you just downloaded and take a look. Now is a good time to remind you about those pesky numeric columns in Excel. If you click directly on a CSV to open it in Excel, there's a good chance it will guess wrong on columns with numbers that should be text. 
+
+![Here's what you want.](/qgis8.jpg)
+
+So remember to take care and pay attention to those pesky numbers-that-should-be-text columns (zip codes are a prime culprit). A way around this is to use Excel's import from text. Then you can explicitly tell Excel the proper data type for each column.
+
+![Here's what you want.](/qgis9.jpg)
+
+
+Look at the column called STATE. Those are the FIPS code in this dataset. So we want to join this data to our map. If you think about SQL, it's the equal of doing something like this: 
 
 ```SQL
 select a.*
-from map a
-left join data b 
+from state_boundary_map a
+left join population_data b 
   on a.STATEFP = b.STATE
 ```
 
-When I attended map camp at NICAR, Jennifer LaFleur told us to think of it like pouring ingredients into a bowl. The data we just downloaded are the ingredients, the state boundaries are the bowl. 
+When I attended map camp at NICAR, Jennifer LaFleur told us to think of it like pouring ingredients into a bowl. The population data we just downloaded are the ingredients, the state boundaries are the bowl. 
+
+![Here's what you want.](/qgis7.jpg)
 
 
 
