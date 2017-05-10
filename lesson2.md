@@ -199,5 +199,4 @@ So now we're cooking with gas. Guthrie (the state's first capital before Oklahom
 Obviously, this isn't a scientific analysis. Like I said, you'd want to check with scientists on this type of analysis. But it gives you a sense of how to use some of QGIS's most useful features. 
 
 
-
-N
+![Here's what you want.](/lesson2_27.jpg)
