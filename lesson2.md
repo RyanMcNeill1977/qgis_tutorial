@@ -158,7 +158,13 @@ But to do this, we have to talk about those awful, doom-inspiring projections.
 
 To get an idea of how projections affect maps, check out this [West Wing video](https://www.youtube.com/watch?v=vVX-PrBRtTY). 
 
-I was trying to think of a good way to explain map projections, but I'm a firm believer in not reinventing the wheel. Well, Michael Corey has done a hell of a job explaining projections and their importance. So [read his explainer instead](https://www.youtube.com/watch?v=vVX-PrBRtTY).
+I was trying to think of a good way to explain map projections, but I'm a firm believer in not reinventing the wheel. Well, Michael Corey has done a hell of a job explaining projections and their importance. So [read his explainer instead](https://source.opennews.org/articles/choosing-right-map-projection/).
+
+The main concept to take home is that maps are an attempt to take a 3D object (the earth) and turn it into a 2D one (the map).
+
+Corey: "Ever since the first cave-cartographer etched the first mammoth-driving directions to the local watering hole on to the wall of a cave, that impossibility has meant making compromises in accuracy. Done poorly, the result is a bad map: at best an ugly one, and at worst one that dramatically misrepresents your data and its context. But once you know a few of the rules, map projections are your key to prioritizing accuracy, readability, and aesthetics that are appropriate to your unique situation.
+
+I'll explain more in class. But it's extremely important to read Corey's article.
 
 #### Back to QGIS 
 
