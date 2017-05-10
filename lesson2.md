@@ -164,7 +164,7 @@ The main concept to take home is that maps are an attempt to take a 3D object (t
 
 Corey: "Ever since the first cave-cartographer etched the first mammoth-driving directions to the local watering hole on to the wall of a cave, that impossibility has meant making compromises in accuracy. Done poorly, the result is a bad map: at best an ugly one, and at worst one that dramatically misrepresents your data and its context. But once you know a few of the rules, map projections are your key to prioritizing accuracy, readability, and aesthetics that are appropriate to your unique situation.
 
-I'll explain more in class. But it's extremely important to read Corey's article.
+I'll explain more in class. But it's extremely important to read Corey's article and understand how different projects can cause major problems for your analysis. 
 
 #### Back to QGIS 
 
