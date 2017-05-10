@@ -150,8 +150,9 @@ But to do this, we have to talk about those awful, doom-inspiring projections.
 
 #### Projections
 
-come back to this 
-don't forget to mention measurements
+To get an idea of how projections affect maps, check out this [West Wing video](https://www.youtube.com/watch?v=vVX-PrBRtTY). 
+
+I was trying to think of a good way to explain map projections, but I'm a firm believer in not reinventing the wheel. Well, Michael Corey has done a hell of a job explaining projections and their importance. So [read his explainer instead](https://www.youtube.com/watch?v=vVX-PrBRtTY).
 
 #### Back to QGIS 
 
