@@ -133,3 +133,71 @@ Now let's count the number of dots in each place. To do this, go to Vector->Anal
 This works as you'd expect. See the count field name? QGIS is going to add a new field to your polygon layer with a count of the dots. Name it what you want, but I just leave it as numpoints. 
 
 ![Here's what you want.](/lesson2_18.jpg)
+
+Hit run. QGIS will do its thing. When it's done, it'll add a new layer. Right click on it and open the attributes table. Scroll all the way to the right of the table and there's your numpoints column. 
+
+![Here's what you want.](/lesson2_19.jpg)
+
+And you can sort your results. Click on the numpoints column to sort the table by ascending and descending values. 
+
+![Here's what you want.](/lesson2_20.jpg)
+
+Looks like Edmond, a suburb of Oklahoma City, had the most epicenters. Did you get the same results? Good. 
+
+But there's one more thing. You know, an epicenter is not the only thing that matters. Now here's where we're going to run with scissors for the purposes of a class exercise. In the real world, you'd probably want to talk to scientists about how best to go about this, but we don't have that luxury in class. So we're going to be arbitrary. What if we want to know about all epicenters that occur within, say, five miles of a community?
+
+But to do this, we have to talk about those awful, doom-inspiring projections. 
+
+#### Projections
+
+come back to this 
+don't forget to mention measurements
+
+#### Back to QGIS 
+
+So let's save both our files in the same projection so that we can do some calculations. 
+
+First thing we need to do is save our communities polygons in a new projection. On the line with the CRS, click on the little globe icon at the far right. Make the following selections (hint: use the filter to sort through all the available projections). 
+
+![Here's what you want.](/lesson2_21.jpg)
+
+Now name your file. I am naming mine places_projected.shp. Hit OK. 
+
+Now do the same thing with the original Oklahoma quake dots shape. 
+
+OK, now our workspace is getting cluttered again. Hit that white paper icon in the upper right and let's reload your projected shapefiles for quakes and communities. 
+
+Now we're curious about epicenters that fall within five miles of a community's borders. To do that, we'll use a tool called buffers. Here's a [great explainer on buffers](https://docs.qgis.org/2.8/en/docs/gentle_gis_introduction/vector_spatial_analysis_buffers.html).
+
+Go to Vector->Geoprocessing tools->Fixed distance buffer. 
+
+![Here's what you want.](/lesson2_22.jpg)
+
+So the layer we want to draw buffers around is our places polygons. **THIS IS IMPORTANT** The units of measurement are the units used by your map projection. In this case, the map projection we used is in feet. There are 26,400 feet in five miles, so let's use that value. 
+
+
+![Here's what you want.](/lesson2_23.jpg)
+
+Hit run. 
+
+And a bunch of blobs show up. 
+
+![Here's what you want.](/lesson2_24.jpg)
+
+But those blobs are important. Zoom in and look closer. They're basically the boundaries of the polygons plus five miles. If you change the transparency of the buffer layer, you get a better look at what's happening. 
+
+![Here's what you want.](/lesson2_25.jpg)
+
+Now we can use the blob layer to figure out which communities have the most earthquakes within five miles of their borders. 
+
+Let's use the count points in polygon tool we used earlier in this lesson. Let's look at the results. 
+
+![Here's what you want.](/lesson2_26.jpg)
+
+So now we're cooking with gas. Guthrie (the state's first capital before Oklahoma City swiped it in the middle of the night), had more than 800 earthquake epicenters within five miles of their borders. 
+
+Obviously, this isn't a scientific analysis. Like I said, you'd want to check with scientists on this type of analysis. But it gives you a sense of how to use some of QGIS's most useful features. 
+
+
+
+N
