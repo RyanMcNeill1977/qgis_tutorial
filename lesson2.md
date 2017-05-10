@@ -9,7 +9,7 @@ in seismicity to wastewater injection wells, which store waste from the fracking
 
 So lets figure out which communities have been the site of the most earthquake epicenters. 
 
-To make things easy, I've downloaded the earthquake data for you. The source of the data is the [United States Geological Survey](https://earthquake.usgs.gov/earthquakes/search/).
+To make things easy, I've downloaded the earthquake data for you. The source of the data is the [United States Geological Survey](https://earthquake.usgs.gov/earthquakes/search/). Download it [here](/quake.csv). 
 
 I selected all quakes with a magnitude greater than 2.5 between 5/10/2013 and 5/10/2017. 
 
@@ -35,6 +35,12 @@ Hit OK. Boom we have dots.
 Now let's add some state boundaries on the map to help us get a grasp of what's where. 
 
 Go to the Census Bureau's [TIGER program site](https://www.census.gov/geo/maps-data/data/tiger-line.html) and download the state boundaries file, just like we did in lesson one.
+
+![Here's what you want.](/lesson2_28.jpg)
+
+![Here's what you want.](/lesson2_29.jpg)
+
+![Here's what you want.](/lesson2_30.jpg)
 
 Now let's put it on the map. 
 
