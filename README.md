@@ -9,4 +9,5 @@ This is a tutorial I wrote while co-teaching a data-driven journalism class in S
 The biggest to-do is to expand the section on projections in lesson two. 
 
 Go to [lesson one.](/lesson1.md)
+
 Go to [lesson two.](/lesson2.md)
