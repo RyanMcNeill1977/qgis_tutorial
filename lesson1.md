@@ -8,7 +8,7 @@ It is a tremendous resource of boundary maps of all kinds: states, legislative d
 
 Let's go to the [download page](https://www.census.gov/geo/maps-data/data/tiger-line.html) and click on the link for the web interface. 
 
-![Here's what you want.](/tiger1.jpg)
+![Here's what you want.](../screenshots/tiger1.jpg)
 
 Download the U.S. states for 2016. Unzip it. 
 
