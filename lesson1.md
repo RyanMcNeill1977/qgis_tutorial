@@ -72,7 +72,7 @@ Voila. A table. There's a record for every state in our map.
 
 Pay special attention to the STATEFP column. That's important. That is the FIPS code for each state. Just like a SQL database, we're going to join data based on a field. In our case, that field is STATEFP. 
 
-Now let's go to the Census Bureau and [download the 2016 population estimates.](https://www.census.gov/data/datasets/2016/demo/popest/nation-total.html) 
+Now let's go to the Census Bureau and [download the 2017 population estimates.](https://www.census.gov/programs-surveys/popest/data/tables.html) 
 
 ![Here's what you want.](../master/screenshots/qgis6.jpg)
 
